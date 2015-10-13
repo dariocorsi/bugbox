@@ -1,0 +1,65 @@
+.insect-listing {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  margin:0;
+}
+.insect {
+  max-width: 100%;
+  text-align: center;
+  list-style: none;
+  margin: 1rem;
+  padding: 1rem;
+  transition: background .2s ease;
+  border-radius: 2px;
+  &:hover {
+    .insect-image {
+      animation: wiggle .75s ease;
+    }
+  }
+  svg {
+    max-width: 100%;
+  }
+}
+.insect-image {
+  text-align: center;
+}
+.identification-card {
+  margin: 2rem auto 0;
+  padding: 1rem 2rem;
+  background: #fff;
+  text-align: center;
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, .1);
+  //  max-width: 14rem;  
+  .insect-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: .25rem;
+    line-height: 1.2;
+  }
+  .latin-name {
+    font-style: italic;
+  }
+}
+@keyframes wiggle {
+  0% {
+    transform: none;
+  }
+  10% {
+    transform: rotate(6deg);
+  }
+  20% {
+    transform: rotate(-4deg);
+  }
+  30% {
+    transform: rotate(2deg);
+  }
+  40% {
+    transform: rotate(-0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

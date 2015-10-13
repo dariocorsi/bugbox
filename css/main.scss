@@ -14,14 +14,14 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 
-
-
-
+$break-small: 600px;
+$break-medium: 800px;
+$break-large: 1000px;
 
 
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    1200px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
@@ -36,16 +36,19 @@ $on-laptop:        800px;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+  @media screen and (min-width: $device) {
+      @content;
+  }
 }
 
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "palette",
-        "base",
-        "layout",
-        "syntax-highlighting"
+      "base",
+      "layout",
+      "header",
+      "syntax-highlighting",
+      "site-intro",
+      "insect"
 ;

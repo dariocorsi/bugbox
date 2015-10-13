@@ -1,0 +1,39 @@
+.site-intro {
+  text-align: center;
+  background: $color-intro-bg;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  .intro-card {
+    margin: 2rem auto 0;
+    padding: 1rem 2rem;
+    background: #fff;
+    text-align: center;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, .1);
+    .site-title {
+      font-size: 3rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      line-height: 1;
+      margin: .5rem 0 0;
+      color: #533E29;
+    }
+  }
+  .site-summary {
+    display: block;
+    margin: 1rem;
+    font-size: 1.4rem;
+  }
+  .scroll-label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+}

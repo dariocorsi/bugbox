@@ -1,6 +1,11 @@
 $text-color:       #111;
-$background-color: #F2F2F2;
+$background-color: #F4EBE2;
 $brand-color:      #2a7ae2;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+
+
+$color-site-frame: #A67C52;
+$color-global-shadow: rbga(#000,.25);
+$color-intro-bg: #22B573;

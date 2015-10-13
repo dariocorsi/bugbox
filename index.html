@@ -2,22 +2,33 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+<div class="site-intro">
+  <div class="wrapper">
+    <div class="intro-card">
+      <h1 class="site-title">{{ site.title }}</h1>
+    </div>
+    <p class="site-summary">
+    Insect vector illustration.
+    </p>
+    <div class="scroll-label">Scroll</div>
+  </div>
+</div>
+<div class="bug-box">
+<ul class="insect-listing">
+  {% for post in site.posts | sort:'name' %}
+    <li class="insect">
+      <div class="insect-image">        
+      {% include {{post.image}} %}
+      </div>
+      <div class="identification-card">
+        <h2 class="insect-name">
+          {{ post.name }}
         </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+          <div class="latin-name">{{ post.latin }}</div>
+        <div class="family">{{post.family}}</div>
+        <a href="{{post.image}}" title="Download {{insect.name}} SVG" download>Download SVG</a>
+      </div>        
+    </li>
+  {% endfor %}
+</ul>
 </div>
