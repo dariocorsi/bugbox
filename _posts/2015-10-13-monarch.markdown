@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Monarch"
+name: "Monarch"
+latin: "Danaus plexippus"
+categories: 
+family: 'Lepidoptera'
+image: 'assets/svg/monarch.svg'
+wiki: 'https://en.wikipedia.org/wiki/Monarch_butterfly'
+---
