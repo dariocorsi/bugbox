@@ -22,4 +22,9 @@ Each insect is a post inside '_posts/' with the following front matter:
 
 ##Illustration
 
+
+###Format
 Illustration is currently saved to scale at 144 dpi. For example, a two-inch insect would be saved out at 288px.
+
+##Guidelines
+Illustrtions should be as geometric as possible, while maintaining distinguishing marks and segment shapes. 
