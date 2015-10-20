@@ -15,7 +15,8 @@ layout: default
 </div>
 <div class="bug-box">
 <ul class="insect-listing">
-  {% for post in site.posts | sort:'name' %}
+  {% assign sorted_posts = (site.posts | sort: 'name') %}
+  {% for post in sorted_posts %}
     <li class="insect">
       <div class="insect-image">        
       {% include {{post.image}} %}

@@ -6,5 +6,5 @@ latin: "Paranaemia vittigera"
 categories: 
 family: 'Coleoptera'
 image: 'assets/svg/striped-lady-beetle.svg'
-wiki: ''
+wiki: 'https://en.wikipedia.org/wiki/Coccinellidae'
 ---
