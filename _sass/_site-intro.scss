@@ -3,11 +3,13 @@
   background: $color-intro-bg;
   height: 100vh;
   display: flex;
-  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  .wrapper{
+    margin:auto;
+  }
   .intro-card {
     margin: 2rem auto 0;
     padding: 1rem 2rem;

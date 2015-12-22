@@ -29,7 +29,7 @@
 }
 .identification-card {
   margin: 2rem auto 0;
-  padding: 1rem 2rem;
+  padding: .75rem 1rem;
   background: #fff;
   text-align: center;
   box-shadow: 4px 4px 0 rgba(0, 0, 0, .1);
@@ -43,7 +43,13 @@
   .latin-name {
     font-style: italic;
   }
+
+  .listing-options{
+  }
 }
+
+
+
 @keyframes wiggle {
   0% {
     transform: none;
