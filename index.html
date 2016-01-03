@@ -8,32 +8,29 @@ layout: default
       <h1 class="site-title">{{ site.title }}</h1>
     </div>
     <p class="site-summary">
-    Insect vector illustration.
+      Insect vector illustration.
     </p>
     <div class="scroll-label">Scroll</div>
   </div>
 </div>
 <div class="bug-box">
-<ul class="insect-listing">
-  {% assign sorted_posts = (site.posts | sort: 'name') %}
-  {% for post in sorted_posts %}
+  <ul class="insect-listing">
+    {% assign sorted_posts = (site.posts | sort: 'name') %} {% for post in sorted_posts %}
     <li class="insect order-{{post.family | downcase}}">
-      <div class="insect-image">        
-      {% include_relative {{post.image}} %}
+      <div class="insect-image">
+        {% include_relative {{post.image}} %}
       </div>
       <div class="identification-card">
         <h2 class="insect-name">
           {{ post.name }}
         </h2>
-          <div class="latin-name">{{ post.latin }}</div>
-        <div class="family">{{post.family}}</div>
-        
+        <div class="latin-name">{{post.latin}}</div>
+        <div class="order">{{post.order}}</div>
         <div class="listing-options">
           <a href="{{post.image}}" title="Download {{insect.name}} SVG" download>Download SVG</a>
         </div>
-        
-      </div>        
+      </div>
     </li>
-  {% endfor %}
-</ul>
+    {% endfor %}
+  </ul>
 </div>

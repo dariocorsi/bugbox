@@ -5,7 +5,7 @@ name: "Luna Moth"
 latin: "Actias luna"
 date:   2015-10-09 11:43:57
 categories: 
-family: 'Lepidoptera'
+order: 'Lepidoptera'
 image: 'assets/svg/luna-moth.svg'
 wiki: 'https://en.wikipedia.org/wiki/Actias_luna'
 ---
