@@ -1,10 +1,10 @@
 # Bugbox
 
-This project is currently just an outlet to do some casual illustration with a consistent theme.
+This project is an outlet to do some casual illustration with a consistent theme.
 
 ## Setup
 
-The site is pretty basic Jekyll site. 
+The site is pretty basic Jekyll install. 
 
 ## Insects
 
@@ -12,9 +12,11 @@ Each insect is a post inside '_posts/' with the following front matter:
 
 ### layout
 
-## title 
+Defaults to 'post'.
 
-The post title
+### title 
+
+The post title.
 
 ### name
 
@@ -46,16 +48,23 @@ The URL to a Wikipedia entry for the insect.
 
 ### Format
 
-Illustration is currently saved to scale at 144 dpi. For example, a two-inch insect would be saved out at 288px.
+All illustration should be saved as an SVG.
+
+### Scale
+
+Illustration is currently saved to scale at 144 dpi. 
+
+For example, a two-inch insect would be saved out at 288px.
 
 ### Style Guidelines
 
-- Illustrations should be as geometric as possible, while maintaining distinguishing marks and segment shapes. 
-- The perspective should be top down, with the head at the top and abdomen at the bottom
-- Avoid gradients
+- Keep illustration as geometric as possible, while maintaining distinguishing marks and segment shapes. 
+- The perspective should be top down, with the head at the top and abdomen at the bottom.
+- Avoid gradients.
+- When a size range is given, use the larger size.
 
 ## To Do
 
 - 'Download all' option
 - Sorting
-- 
+- Single post view  
