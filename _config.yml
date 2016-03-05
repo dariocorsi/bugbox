@@ -10,5 +10,16 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
+#Permalink defaults
+defaults:
+
+  -
+    scope:
+      path: "_posts"
+    values:
+      layout: "insect"
+      permalink: "/insects/:title/"
+  
+
 # Build settings
 markdown: kramdown

@@ -17,9 +17,11 @@ layout: default
   <ul class="insect-listing">
     {% assign sorted_posts = (site.posts | sort: 'name') %} {% for post in sorted_posts %}
     <li class="insect order-{{post.family | downcase}}">
+      <a href="{{post.url}}">
       <div class="insect-image">
         {% include_relative {{post.image}} %}
       </div>
+        </a>
       <div class="identification-card">
         <h2 class="insect-name">
           {{ post.name }}

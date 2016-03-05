@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Ground Beetle"
 name: "Cicada Killer"
 latin: "Sphecius speciosus"
