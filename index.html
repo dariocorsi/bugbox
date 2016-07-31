@@ -15,7 +15,7 @@ layout: default
 </div>
 <div class="bug-box">
   <ul class="insect-listing">
-    {% assign sorted_posts = (site.posts | sort: 'name') %} {% for post in sorted_posts %}
+    {% assign sorted_posts = (site.data.insects | sort: 'name') %} {% for post in sorted_posts %}
     <li class="insect order-{{post.family | downcase}}">
       <div class="insect-image">
         {% include_relative {{post.image}} %}

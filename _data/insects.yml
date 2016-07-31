@@ -1,0 +1,100 @@
+- name: "Cicada Killer"
+  latin: "Sphecius speciosus"
+  categories:
+  order: 'Hymenoptera'
+  image: 'assets/svg/cicada-killer.svg'
+  wiki: 'https://en.wikipedia.org/wiki/Sphecius_speciosus'
+
+- name: "Giant Water Bug"
+  latin: "Lethocerus americanus"
+  categories:
+  order: 'Hemiptera'
+  image: 'assets/svg/giant-water-bug.svg'
+
+- name: "Common Black Ground Beetle"
+  latin: "Pterostichus melanarius"
+  categories:
+  order: 'Coleoptera'
+  image: 'assets/svg/ground-beetle.svg'
+
+- name: "Luna Moth"
+  latin: "Actias luna"
+  categories:
+  order: 'Lepidoptera'
+  image: 'assets/svg/luna-moth.svg'
+  wiki: 'https://en.wikipedia.org/wiki/Actias_luna'
+
+- name: "Boxelder Bug"
+  latin: "Boisea trivittata"
+  categories:
+  order: 'Hemiptera'
+  image: 'assets/svg/boxelder-bug.svg'
+  wiki: 'https://en.wikipedia.org/wiki/Boxelder_bug'
+
+- name: "Field Cricket"
+  latin: "Gryllus pennsylvanicus"
+  categories:
+  order: 'Orthoptera'
+  image: 'assets/svg/field-cricket.svg'
+  wiki: 'https://en.wikipedia.org/wiki/Field_cricket'
+
+- name: "Convergent Lady Beetle"
+  latin: "Hippodamia convergens"
+  categories:
+  order: 'Coleoptera'
+  image: 'assets/svg/ladybird-beetle.svg'
+
+- name: "Monarch"
+  latin: "Danaus plexippus"
+  categories:
+  order: 'Lepidoptera'
+  image: 'assets/svg/monarch.svg'
+  wiki: 'https://en.wikipedia.org/wiki/Monarch_butterfly'
+
+- name: "Striped Lady Beetle"
+  latin: "Paranaemia vittigera"
+  categories:
+  order: 'Coleoptera'
+  image: 'assets/svg/striped-lady-beetle.svg'
+  wiki: 'https://en.wikipedia.org/wiki/Coccinellidae'
+
+- name: "Dogday Harvestfly"
+  latin: "Tibecen canicularis"
+  categories: cicada
+  order: 'Hemiptera'
+  image: 'assets/svg/dogday-harvestfly.svg'
+  wiki: 'https://en.wikipedia.org/wiki/Dog-day_cicada'
+
+- name: "Green Stinkbug"
+  latin: "Chinavia hilaris"
+  categories:
+  order: 'Hemiptera'
+  image: 'assets/svg/green-stinkbug.svg'
+  wiki: 'https://en.wikipedia.org/wiki/Green_stink_bug'
+
+- name: "Periodical Cicada"
+  latin: "Magicicada"
+  categories:
+  order: 'Hemiptera'
+  image: 'assets/svg/periodical-cicada.svg'
+  wiki: 'https://en.wikipedia.org/wiki/Periodical_cicadas'
+
+- name: "Swift Long-winged Skimmer"
+  latin: "Pachydiplax longipennis"
+  categories:
+  order: 'Odonata'
+  image: 'assets/svg/swift-long-winged-skimmer.svg'
+
+- name: "Western Honey Bee"
+  latin: "Apis mellifera"
+  categories:
+  order: 'Hymenoptera'
+  image: 'assets/svg/honey-bee.svg'
+  wiki: 'https://en.wikipedia.org/wiki/Western_honey_bee'
+
+- name: "Polybiine Paper Wasp"
+  latin: "Mischocyttarus flavitarsus"
+  categories:
+  order: 'Hymenoptera'
+  image: 'assets/svg/paper-wasp.svg'
+  wiki: 'https://en.wikipedia.org/wiki/Paper_wasp'
