@@ -98,3 +98,10 @@
   order: 'Hymenoptera'
   image: 'assets/svg/paper-wasp.svg'
   wiki: 'https://en.wikipedia.org/wiki/Paper_wasp'
+
+- name: "Rainbow Stag Beetle"
+  latin: "Phalacrognathus muelleri"
+  categories:
+  order: 'Coleoptera'
+  image: 'assets/svg/rainbow-stag-beetle.svg'
+  wiki: 'https://en.wikipedia.org/wiki/Phalacrognathus_muelleri'
