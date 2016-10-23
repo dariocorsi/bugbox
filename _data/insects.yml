@@ -105,3 +105,10 @@
   order: 'Coleoptera'
   image: 'assets/svg/rainbow-stag-beetle.svg'
   wiki: 'https://en.wikipedia.org/wiki/Phalacrognathus_muelleri'
+
+- name: "Japanese Beetle"
+  latin: "Popillia japonica"
+  categories:
+  order: 'Coleoptera'
+  image: 'assets/svg/japanese-beetle.svg'
+  wiki: 'https://en.wikipedia.org/wiki/Japanese_beetle'
